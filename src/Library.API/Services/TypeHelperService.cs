@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Library.API.Services
 {
-    public class TypeHelperService
+    public class TypeHelperService: ITypeHelperService
     {
         public bool TypeHasProperties<T>(string fields)
         {
